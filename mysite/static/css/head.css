@@ -1,0 +1,100 @@
+/*
+    DJANGO Admin styles
+*/
+
+body {
+    margin: 0;
+    padding: 0 ;
+    /*font-size: 12px;*/
+    font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    color: #333;
+    background: #675;
+}
+
+/* LINKS */
+a:link, a:visited {
+    color: #5b80b2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #036;
+}
+
+a:img {
+    border: none;
+}
+
+a.section:link, a.section:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*global*/
+
+/* HEADER */
+
+#header {
+    width: 100%;
+    background: #453;/*#417690;*/
+    color: #ffc;
+    overflow: hidden;
+}
+
+#header a:link, #header a:visited {
+    color: #fff;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
+
+#branding {
+    float: left;
+	font-size: 15px;
+}
+#branding h1 {
+    padding: 10 30px;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+    color: #f4f379;
+}
+
+#branding h2 {
+    padding: 0 10px;
+    font-size: 14px;
+    margin: -8px 0 8px 0;
+    font-weight: normal;
+    color: #ffc;
+}
+
+#branding a:hover {
+    text-decoration: none;
+}
+
+#user-tools {
+    float: right;
+    padding: 1.2em 10px;
+    font-size: 18px;
+    text-align: right;
+}
+
+/* SIDEBAR */
+
+#content-related h3 {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 3px;
+}
+
+#content-related h4 {
+    font-size: 11px;
+}
+
+#content-related .module h2 {
+    background: #eee url(../img/nav-bg.gif) bottom left repeat-x;
+    color: #666;
+}
